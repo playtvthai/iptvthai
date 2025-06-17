@@ -1,3 +1,4 @@
+
 var env = process.env.NODE_ENV ? 'beamup':'local';
 
 var config = {
@@ -8,7 +9,7 @@ switch (env) {
     //Public server build.
     case 'beamup':
 		config.port = process.env.PORT
-        config.local = "5a0d1888fa64-your-iptv.baby-beamup.club"
+        config.local = "https://bitter-ninnetta-playtvthai-4a9cfca7.koyeb.app/"
         break;
 
     //Local sever build.
